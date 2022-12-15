@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>개발자가 되자.</title>
     <link rel="stylesheet" href="style.css">
+    <script src="color.js"></script>
   </head>
   <body>
     <h1><a href="index.html">시작이 반이다</a></h1>
@@ -12,12 +13,16 @@
       <ol>
         <Li><a href="html.html">HTML</a></Li>
         <Li><a href="css.html">CSS</a></Li>
-        <Li><a href="java.html">JavaScript</a></Li>
+        <Li><a href="java.html" id="active">JavaScript</a></Li>
       </ol>
       <div id="article">
         <H2>JavaScript</h2>
           <p>
             JavaScript는 웹 페이지에 기능들을 부여해 '일을 시키는' 프로그래밍 언어다.<br>
+            === 비교연산자, true와 false 값을 묶어서 불리언 이라 한다<br>
+            토글 기능 구현 연습
+            <input id="night-day" type="button" value="night" onclick="nightDayHandler(this);"><br>
+            자바스크립트 라이브러리 중 가장 유명한 것은 jQuery                      
       </div>
     </div>
   </body>
